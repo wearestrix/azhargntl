@@ -8,13 +8,12 @@ strix_banner = """
      [4] Kembali 
 	 [05] keluar dari STRIX
 """	 
-	 
-	 def restart_program():
+def restart_program():
           	python = sys.executable
 			os.execl(python, python, * sys.argv)
 			curdir = os.getcwd
 			
-	def backtomenu_option()
+def backtomenu_option()
         print backtomenu_banner
 		backtomenu = raw_input("strix >")
 		if backtomenu == "00":
@@ -26,7 +25,7 @@ strix_banner = """
 		        time.sleep(2)
 		        restart_program()
 				
-	def Fbbruteforce():
+def Fbbruteforce():
                     print '\n####### Install Fbbruteforce'
 					os.system('apt update && apt upgrade')
 					os.system('git clone https://github.com/tikuskecil/multi-bruteforce-facebook')
@@ -36,7 +35,7 @@ strix_banner = """
 					print '@@@@@ Done'
 					backtomenu_option()
 					
-	def	spammer_email():
+def	spammer_email():
 	            print '\n####### Installing spammer-Email'
 				os.system("apt update && apt upgrade")
 				os.system("apt install git python2 && pip2 install argparse requests")
