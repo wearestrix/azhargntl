@@ -1,1 +1,1 @@
-this is a script to hack
+this is a script for hack
